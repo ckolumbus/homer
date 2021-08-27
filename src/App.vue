@@ -65,7 +65,7 @@
               <h2 v-if="group.name" class="column is-full group-title">
                 <i v-if="group.icon" :class="['fa-fw', group.icon]"></i>
                 <div v-else-if="group.logo" class="group-logo media-left">
-                  <figure class="image is-48x48">
+                  <figure class="image is-24x24">
                     <img :src="group.logo" :alt="`${group.name} logo`" />
                   </figure>
                 </div>
@@ -93,7 +93,7 @@
               <h2 v-if="group.name" class="group-title">
                 <i v-if="group.icon" :class="['fa-fw', group.icon]"></i>
                 <div v-else-if="group.logo" class="group-logo media-left">
-                  <figure class="image is-48x48">
+                  <figure class="image is-24x24">
                     <img :src="group.logo" :alt="`${group.name} logo`" />
                   </figure>
                 </div>

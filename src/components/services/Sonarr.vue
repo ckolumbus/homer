@@ -5,13 +5,13 @@
         <div class="card-content">
           <div class="media">
             <div v-if="item.logo" class="media-left">
-              <figure class="image is-48x48">
+              <figure class="image is-24x24">
                 <img :src="item.logo" :alt="`${item.name} logo`" />
               </figure>
             </div>
             <div v-if="item.icon" class="media-left">
-              <figure class="image is-48x48">
-                <i style="font-size: 35px" :class="['fa-fw', item.icon]"></i>
+              <figure class="image is-24x24">
+                <i style="font-size: 24px" :class="['fa-fw', item.icon]"></i>
               </figure>
             </div>
             <div class="media-content">
